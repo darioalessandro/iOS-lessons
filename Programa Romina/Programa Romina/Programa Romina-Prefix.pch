@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Programa Romina' target in the 'Programa Romina' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
