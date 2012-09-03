@@ -33,6 +33,8 @@
         isAmerican=YES;
     }else if([laMarca isEqualToString:@"GMC"]){
         isAmerican=YES;
+    }else if([laMarca isEqualToString:@"GM"]){
+        isAmerican=YES;
     }else{
         isAmerican=NO;
     }
