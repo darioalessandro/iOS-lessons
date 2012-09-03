@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Exercise Chapter 3.7' target in the 'Exercise Chapter 3.7' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

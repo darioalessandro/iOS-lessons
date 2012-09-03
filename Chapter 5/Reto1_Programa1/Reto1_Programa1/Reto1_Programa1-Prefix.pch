@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Reto1_Programa1' target in the 'Reto1_Programa1' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

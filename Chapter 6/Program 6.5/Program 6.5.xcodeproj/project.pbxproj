@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FBCEDD115E42D3D00340350 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBCEDD015E42D3D00340350 /* Foundation.framework */; };
+		8FBCEDD415E42D3D00340350 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBCEDD315E42D3D00340350 /* main.m */; };
+		8FBCEDD815E42D3D00340350 /* Program_6_5.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8FBCEDD715E42D3D00340350 /* Program_6_5.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8FBCEDCA15E42D3D00340350 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8FBCEDD815E42D3D00340350 /* Program_6_5.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8FBCEDCC15E42D3D00340350 /* Program 6.5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Program 6.5"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBCEDD015E42D3D00340350 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8FBCEDD315E42D3D00340350 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FBCEDD615E42D3D00340350 /* Program 6.5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Program 6.5-Prefix.pch"; sourceTree = "<group>"; };
+		8FBCEDD715E42D3D00340350 /* Program_6_5.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Program_6_5.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FBCEDC915E42D3D00340350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBCEDD115E42D3D00340350 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FBCEDC115E42D3D00340350 = {
+			isa = PBXGroup;
+			children = (
+				8FBCEDD215E42D3D00340350 /* Program 6.5 */,
+				8FBCEDCF15E42D3D00340350 /* Frameworks */,
+				8FBCEDCD15E42D3D00340350 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FBCEDCD15E42D3D00340350 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FBCEDCC15E42D3D00340350 /* Program 6.5 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FBCEDCF15E42D3D00340350 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FBCEDD015E42D3D00340350 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FBCEDD215E42D3D00340350 /* Program 6.5 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBCEDD315E42D3D00340350 /* main.m */,
+				8FBCEDD715E42D3D00340350 /* Program_6_5.1 */,
+				8FBCEDD515E42D3D00340350 /* Supporting Files */,
+			);
+			path = "Program 6.5";
+			sourceTree = "<group>";
+		};
+		8FBCEDD515E42D3D00340350 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FBCEDD615E42D3D00340350 /* Program 6.5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FBCEDCB15E42D3D00340350 /* Program 6.5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FBCEDDB15E42D3D00340350 /* Build configuration list for PBXNativeTarget "Program 6.5" */;
+			buildPhases = (
+				8FBCEDC815E42D3D00340350 /* Sources */,
+				8FBCEDC915E42D3D00340350 /* Frameworks */,
+				8FBCEDCA15E42D3D00340350 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Program 6.5";
+			productName = "Program 6.5";
+			productReference = 8FBCEDCC15E42D3D00340350 /* Program 6.5 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FBCEDC315E42D3D00340350 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "23 * Romanovski * 23";
+			};
+			buildConfigurationList = 8FBCEDC615E42D3D00340350 /* Build configuration list for PBXProject "Program 6.5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8FBCEDC115E42D3D00340350;
+			productRefGroup = 8FBCEDCD15E42D3D00340350 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FBCEDCB15E42D3D00340350 /* Program 6.5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FBCEDC815E42D3D00340350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBCEDD415E42D3D00340350 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8FBCEDD915E42D3D00340350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8FBCEDDA15E42D3D00340350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8FBCEDDC15E42D3D00340350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Program 6.5/Program 6.5-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FBCEDDD15E42D3D00340350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Program 6.5/Program 6.5-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FBCEDC615E42D3D00340350 /* Build configuration list for PBXProject "Program 6.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBCEDD915E42D3D00340350 /* Debug */,
+				8FBCEDDA15E42D3D00340350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FBCEDDB15E42D3D00340350 /* Build configuration list for PBXNativeTarget "Program 6.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBCEDDC15E42D3D00340350 /* Debug */,
+				8FBCEDDD15E42D3D00340350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FBCEDC315E42D3D00340350 /* Project object */;
+}
