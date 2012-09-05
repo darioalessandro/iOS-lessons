@@ -17,10 +17,7 @@
     int height;
 }
 
-
-
-
-
+-(void) setWidth:(int) width: (int) w andHeight: (int) h;
 
 @property int width, height;
 

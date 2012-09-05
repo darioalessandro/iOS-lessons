@@ -11,6 +11,7 @@
 		8F91A6AF15F7BAA200E352EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F91A6AE15F7BAA200E352EA /* main.m */; };
 		8F91A6B315F7BAA200E352EA /* Program_8_2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8F91A6B215F7BAA200E352EA /* Program_8_2.1 */; };
 		8F91A6BB15F7BAB200E352EA /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F91A6BA15F7BAB200E352EA /* Rectangle.m */; };
+		8F91A6C215F7E2E500E352EA /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F91A6C115F7E2E500E352EA /* Square.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		8F91A6B215F7BAA200E352EA /* Program_8_2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Program_8_2.1; sourceTree = "<group>"; };
 		8F91A6B915F7BAB200E352EA /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
 		8F91A6BA15F7BAB200E352EA /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		8F91A6C015F7E2E500E352EA /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		8F91A6C115F7E2E500E352EA /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		8F91A69C15F7BAA200E352EA = {
 			isa = PBXGroup;
 			children = (
+				8F91A6C015F7E2E500E352EA /* Square.h */,
+				8F91A6C115F7E2E500E352EA /* Square.m */,
 				8F91A6AD15F7BAA200E352EA /* Program 8.2 */,
 				8F91A6AA15F7BAA200E352EA /* Frameworks */,
 				8F91A6A815F7BAA200E352EA /* Products */,
@@ -146,6 +151,7 @@
 			files = (
 				8F91A6AF15F7BAA200E352EA /* main.m in Sources */,
 				8F91A6BB15F7BAB200E352EA /* Rectangle.m in Sources */,
+				8F91A6C215F7E2E500E352EA /* Square.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +242,7 @@
 				8F91A6B815F7BAA200E352EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

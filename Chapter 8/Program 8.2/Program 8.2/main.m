@@ -10,21 +10,30 @@
 
 #import "Rectangle.h"
 
+#import "Square.h"
+
+
+
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
         Rectangle *myrect = [[Rectangle alloc]init];
+        Square *mySquare = [[Square alloc]init];
         
-        
-        [myrect setWidth:5 andHeight: 8];
+        [myrect setWidth:5 andHeight:8];
+        [mySquare setSide: 4];
         
         NSLog(@"w = %i, h= %i", myrect.width, myrect.height);
         NSLog(@"Area = %i, Perimeter = %i", [myrect area], [myrect perimeter]);
         
-        [myrect release];
+        NSLog(@"Square s = %i", [mySquare side]);
+        NSLog(@"Area = %i, perimeter = %i", [mySquare area], [mySquare perimeter]);
         
+        
+        [myrect release];
+        [mySquare release];
         
         
         
