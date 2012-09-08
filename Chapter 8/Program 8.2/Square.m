@@ -16,7 +16,7 @@
     
     
     
-    [self setWidth: s andHeight: s]; }
+   [ self setWidth: s andHeight: s]; }
 
 
 

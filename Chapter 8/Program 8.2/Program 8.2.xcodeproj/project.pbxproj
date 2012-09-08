@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F1E9C9115FAD12C0079A161 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1E9C9015FAD12C0079A161 /* XYPoint.m */; };
 		8F91A6AC15F7BAA200E352EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F91A6AB15F7BAA200E352EA /* Foundation.framework */; };
 		8F91A6AF15F7BAA200E352EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F91A6AE15F7BAA200E352EA /* main.m */; };
 		8F91A6B315F7BAA200E352EA /* Program_8_2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8F91A6B215F7BAA200E352EA /* Program_8_2.1 */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8F1E9C8F15FAD12C0079A161 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		8F1E9C9015FAD12C0079A161 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
 		8F91A6A715F7BAA200E352EA /* Program 8.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Program 8.2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F91A6AB15F7BAA200E352EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8F91A6AE15F7BAA200E352EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,6 +57,8 @@
 		8F91A69C15F7BAA200E352EA = {
 			isa = PBXGroup;
 			children = (
+				8F1E9C8F15FAD12C0079A161 /* XYPoint.h */,
+				8F1E9C9015FAD12C0079A161 /* XYPoint.m */,
 				8F91A6C015F7E2E500E352EA /* Square.h */,
 				8F91A6C115F7E2E500E352EA /* Square.m */,
 				8F91A6AD15F7BAA200E352EA /* Program 8.2 */,
@@ -152,6 +157,7 @@
 				8F91A6AF15F7BAA200E352EA /* main.m in Sources */,
 				8F91A6BB15F7BAB200E352EA /* Rectangle.m in Sources */,
 				8F91A6C215F7E2E500E352EA /* Square.m in Sources */,
+				8F1E9C9115FAD12C0079A161 /* XYPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
