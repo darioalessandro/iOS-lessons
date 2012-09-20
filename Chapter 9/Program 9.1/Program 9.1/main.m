@@ -30,8 +30,8 @@ int main(int argc, const char * argv[])
         [f1 setTo: 1 over: 10];
         [f2 setTo: 2 over: 15];
         
-        [Complex setReal: 18.0 andImaginario : 2.5];
-        [Complex setReal: -5.0 andImaginario : 3.2];
+        [Complex setReal: 18.0 andImaginario: 2.5];
+        [Complex setReal: -5.0 andImaginario: 3.2];
         
         [c1 print];
         {NSLog(@"                +");}
