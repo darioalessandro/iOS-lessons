@@ -36,7 +36,7 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
         
-        
+        id dataValue;
         
         Fraction *f1 = [[Fraction alloc]init];
         Complex *c1 = [[Complex alloc]init];
