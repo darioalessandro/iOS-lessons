@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F53BCE41614C138000B868E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F53BCE31614C138000B868E /* UIKit.framework */; };
+		8F53BCE61614C138000B868E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F53BCE51614C138000B868E /* Foundation.framework */; };
+		8F53BCE81614C138000B868E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F53BCE71614C138000B868E /* CoreGraphics.framework */; };
+		8F53BCEE1614C138000B868E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F53BCEC1614C138000B868E /* InfoPlist.strings */; };
+		8F53BCF01614C138000B868E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F53BCEF1614C138000B868E /* main.m */; };
+		8F53BCF41614C138000B868E /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F53BCF31614C138000B868E /* BIDAppDelegate.m */; };
+		8F53BCF71614C138000B868E /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F53BCF61614C138000B868E /* BIDViewController.m */; };
+		8F53BCFA1614C138000B868E /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F53BCF81614C138000B868E /* BIDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F53BCDF1614C138000B868E /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F53BCE31614C138000B868E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F53BCE51614C138000B868E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F53BCE71614C138000B868E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F53BCEB1614C138000B868E /* Hello World-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hello World-Info.plist"; sourceTree = "<group>"; };
+		8F53BCED1614C138000B868E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F53BCEF1614C138000B868E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F53BCF11614C138000B868E /* Hello World-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello World-Prefix.pch"; sourceTree = "<group>"; };
+		8F53BCF21614C138000B868E /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		8F53BCF31614C138000B868E /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		8F53BCF51614C138000B868E /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		8F53BCF61614C138000B868E /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		8F53BCF91614C138000B868E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F53BCDC1614C138000B868E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F53BCE41614C138000B868E /* UIKit.framework in Frameworks */,
+				8F53BCE61614C138000B868E /* Foundation.framework in Frameworks */,
+				8F53BCE81614C138000B868E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F53BCD41614C138000B868E = {
+			isa = PBXGroup;
+			children = (
+				8F53BCE91614C138000B868E /* Hello World */,
+				8F53BCE21614C138000B868E /* Frameworks */,
+				8F53BCE01614C138000B868E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F53BCE01614C138000B868E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F53BCDF1614C138000B868E /* Hello World.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F53BCE21614C138000B868E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F53BCE31614C138000B868E /* UIKit.framework */,
+				8F53BCE51614C138000B868E /* Foundation.framework */,
+				8F53BCE71614C138000B868E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F53BCE91614C138000B868E /* Hello World */ = {
+			isa = PBXGroup;
+			children = (
+				8F53BCF21614C138000B868E /* BIDAppDelegate.h */,
+				8F53BCF31614C138000B868E /* BIDAppDelegate.m */,
+				8F53BCF51614C138000B868E /* BIDViewController.h */,
+				8F53BCF61614C138000B868E /* BIDViewController.m */,
+				8F53BCF81614C138000B868E /* BIDViewController.xib */,
+				8F53BCEA1614C138000B868E /* Supporting Files */,
+			);
+			path = "Hello World";
+			sourceTree = "<group>";
+		};
+		8F53BCEA1614C138000B868E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F53BCEB1614C138000B868E /* Hello World-Info.plist */,
+				8F53BCEC1614C138000B868E /* InfoPlist.strings */,
+				8F53BCEF1614C138000B868E /* main.m */,
+				8F53BCF11614C138000B868E /* Hello World-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F53BCDE1614C138000B868E /* Hello World */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F53BCFD1614C138000B868E /* Build configuration list for PBXNativeTarget "Hello World" */;
+			buildPhases = (
+				8F53BCDB1614C138000B868E /* Sources */,
+				8F53BCDC1614C138000B868E /* Frameworks */,
+				8F53BCDD1614C138000B868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hello World";
+			productName = "Hello World";
+			productReference = 8F53BCDF1614C138000B868E /* Hello World.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F53BCD61614C138000B868E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = com.Apress;
+			};
+			buildConfigurationList = 8F53BCD91614C138000B868E /* Build configuration list for PBXProject "Hello World" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F53BCD41614C138000B868E;
+			productRefGroup = 8F53BCE01614C138000B868E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F53BCDE1614C138000B868E /* Hello World */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F53BCDD1614C138000B868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F53BCEE1614C138000B868E /* InfoPlist.strings in Resources */,
+				8F53BCFA1614C138000B868E /* BIDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F53BCDB1614C138000B868E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F53BCF01614C138000B868E /* main.m in Sources */,
+				8F53BCF41614C138000B868E /* BIDAppDelegate.m in Sources */,
+				8F53BCF71614C138000B868E /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F53BCEC1614C138000B868E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F53BCED1614C138000B868E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F53BCF81614C138000B868E /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F53BCF91614C138000B868E /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F53BCFB1614C138000B868E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F53BCFC1614C138000B868E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F53BCFE1614C138000B868E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hello World/Hello World-Prefix.pch";
+				INFOPLIST_FILE = "Hello World/Hello World-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F53BCFF1614C138000B868E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hello World/Hello World-Prefix.pch";
+				INFOPLIST_FILE = "Hello World/Hello World-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F53BCD91614C138000B868E /* Build configuration list for PBXProject "Hello World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F53BCFB1614C138000B868E /* Debug */,
+				8F53BCFC1614C138000B868E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F53BCFD1614C138000B868E /* Build configuration list for PBXNativeTarget "Hello World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F53BCFE1614C138000B868E /* Debug */,
+				8F53BCFF1614C138000B868E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F53BCD61614C138000B868E /* Project object */;
+}
