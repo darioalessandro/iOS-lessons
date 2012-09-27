@@ -15,6 +15,8 @@
 		8F53BCF41614C138000B868E /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F53BCF31614C138000B868E /* BIDAppDelegate.m */; };
 		8F53BCF71614C138000B868E /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F53BCF61614C138000B868E /* BIDViewController.m */; };
 		8F53BCFA1614C138000B868E /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F53BCF81614C138000B868E /* BIDViewController.xib */; };
+		8F53BD011614EBCD000B868E /* rotatetrans.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F53BD001614EBCD000B868E /* rotatetrans.png */; };
+		8F53BD031614EC25000B868E /* rotatetrans copia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F53BD021614EC25000B868E /* rotatetrans copia@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		8F53BCF51614C138000B868E /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		8F53BCF61614C138000B868E /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		8F53BCF91614C138000B868E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		8F53BD001614EBCD000B868E /* rotatetrans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rotatetrans.png; path = ../rotatetrans.png; sourceTree = "<group>"; };
+		8F53BD021614EC25000B868E /* rotatetrans copia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rotatetrans copia@2x.png"; path = "../rotatetrans copia@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				8F53BCEB1614C138000B868E /* Hello World-Info.plist */,
+				8F53BD021614EC25000B868E /* rotatetrans copia@2x.png */,
+				8F53BD001614EBCD000B868E /* rotatetrans.png */,
 				8F53BCEC1614C138000B868E /* InfoPlist.strings */,
 				8F53BCEF1614C138000B868E /* main.m */,
 				8F53BCF11614C138000B868E /* Hello World-Prefix.pch */,
@@ -152,6 +158,8 @@
 			files = (
 				8F53BCEE1614C138000B868E /* InfoPlist.strings in Resources */,
 				8F53BCFA1614C138000B868E /* BIDViewController.xib in Resources */,
+				8F53BD011614EBCD000B868E /* rotatetrans.png in Resources */,
+				8F53BD031614EC25000B868E /* rotatetrans copia@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
