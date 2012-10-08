@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F8721D7161F8C8300C6A7BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8721D6161F8C8300C6A7BA /* UIKit.framework */; };
+		8F8721D9161F8C8300C6A7BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8721D8161F8C8300C6A7BA /* Foundation.framework */; };
+		8F8721DB161F8C8300C6A7BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8721DA161F8C8300C6A7BA /* CoreGraphics.framework */; };
+		8F8721E1161F8C8300C6A7BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F8721DF161F8C8300C6A7BA /* InfoPlist.strings */; };
+		8F8721E3161F8C8300C6A7BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8721E2161F8C8300C6A7BA /* main.m */; };
+		8F8721E7161F8C8400C6A7BA /* ROMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8721E6161F8C8400C6A7BA /* ROMAppDelegate.m */; };
+		8F8721E9161F8C8400C6A7BA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8721E8161F8C8400C6A7BA /* Default.png */; };
+		8F8721EB161F8C8400C6A7BA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8721EA161F8C8400C6A7BA /* Default@2x.png */; };
+		8F8721ED161F8C8400C6A7BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8721EC161F8C8400C6A7BA /* Default-568h@2x.png */; };
+		8F8721F0161F8C8400C6A7BA /* ROMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8721EF161F8C8400C6A7BA /* ROMViewController.m */; };
+		8F8721F3161F8C8400C6A7BA /* ROMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F8721F1161F8C8400C6A7BA /* ROMViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F8721D2161F8C8300C6A7BA /* Autosize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autosize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8721D6161F8C8300C6A7BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F8721D8161F8C8300C6A7BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F8721DA161F8C8300C6A7BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F8721DE161F8C8300C6A7BA /* Autosize-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Autosize-Info.plist"; sourceTree = "<group>"; };
+		8F8721E0161F8C8300C6A7BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F8721E2161F8C8300C6A7BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F8721E4161F8C8400C6A7BA /* Autosize-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Autosize-Prefix.pch"; sourceTree = "<group>"; };
+		8F8721E5161F8C8400C6A7BA /* ROMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ROMAppDelegate.h; sourceTree = "<group>"; };
+		8F8721E6161F8C8400C6A7BA /* ROMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROMAppDelegate.m; sourceTree = "<group>"; };
+		8F8721E8161F8C8400C6A7BA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8F8721EA161F8C8400C6A7BA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8F8721EC161F8C8400C6A7BA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8F8721EE161F8C8400C6A7BA /* ROMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ROMViewController.h; sourceTree = "<group>"; };
+		8F8721EF161F8C8400C6A7BA /* ROMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROMViewController.m; sourceTree = "<group>"; };
+		8F8721F2161F8C8400C6A7BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ROMViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F8721CF161F8C8300C6A7BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8721D7161F8C8300C6A7BA /* UIKit.framework in Frameworks */,
+				8F8721D9161F8C8300C6A7BA /* Foundation.framework in Frameworks */,
+				8F8721DB161F8C8300C6A7BA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F8721C7161F8C8300C6A7BA = {
+			isa = PBXGroup;
+			children = (
+				8F8721DC161F8C8300C6A7BA /* Autosize */,
+				8F8721D5161F8C8300C6A7BA /* Frameworks */,
+				8F8721D3161F8C8300C6A7BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F8721D3161F8C8300C6A7BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F8721D2161F8C8300C6A7BA /* Autosize.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F8721D5161F8C8300C6A7BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F8721D6161F8C8300C6A7BA /* UIKit.framework */,
+				8F8721D8161F8C8300C6A7BA /* Foundation.framework */,
+				8F8721DA161F8C8300C6A7BA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F8721DC161F8C8300C6A7BA /* Autosize */ = {
+			isa = PBXGroup;
+			children = (
+				8F8721E5161F8C8400C6A7BA /* ROMAppDelegate.h */,
+				8F8721E6161F8C8400C6A7BA /* ROMAppDelegate.m */,
+				8F8721EE161F8C8400C6A7BA /* ROMViewController.h */,
+				8F8721EF161F8C8400C6A7BA /* ROMViewController.m */,
+				8F8721F1161F8C8400C6A7BA /* ROMViewController.xib */,
+				8F8721DD161F8C8300C6A7BA /* Supporting Files */,
+			);
+			path = Autosize;
+			sourceTree = "<group>";
+		};
+		8F8721DD161F8C8300C6A7BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F8721DE161F8C8300C6A7BA /* Autosize-Info.plist */,
+				8F8721DF161F8C8300C6A7BA /* InfoPlist.strings */,
+				8F8721E2161F8C8300C6A7BA /* main.m */,
+				8F8721E4161F8C8400C6A7BA /* Autosize-Prefix.pch */,
+				8F8721E8161F8C8400C6A7BA /* Default.png */,
+				8F8721EA161F8C8400C6A7BA /* Default@2x.png */,
+				8F8721EC161F8C8400C6A7BA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F8721D1161F8C8300C6A7BA /* Autosize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8721F6161F8C8400C6A7BA /* Build configuration list for PBXNativeTarget "Autosize" */;
+			buildPhases = (
+				8F8721CE161F8C8300C6A7BA /* Sources */,
+				8F8721CF161F8C8300C6A7BA /* Frameworks */,
+				8F8721D0161F8C8300C6A7BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Autosize;
+			productName = Autosize;
+			productReference = 8F8721D2161F8C8300C6A7BA /* Autosize.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F8721C9161F8C8300C6A7BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ROM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "com Romanovski";
+			};
+			buildConfigurationList = 8F8721CC161F8C8300C6A7BA /* Build configuration list for PBXProject "Autosize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F8721C7161F8C8300C6A7BA;
+			productRefGroup = 8F8721D3161F8C8300C6A7BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F8721D1161F8C8300C6A7BA /* Autosize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F8721D0161F8C8300C6A7BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8721E1161F8C8300C6A7BA /* InfoPlist.strings in Resources */,
+				8F8721E9161F8C8400C6A7BA /* Default.png in Resources */,
+				8F8721EB161F8C8400C6A7BA /* Default@2x.png in Resources */,
+				8F8721ED161F8C8400C6A7BA /* Default-568h@2x.png in Resources */,
+				8F8721F3161F8C8400C6A7BA /* ROMViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F8721CE161F8C8300C6A7BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8721E3161F8C8300C6A7BA /* main.m in Sources */,
+				8F8721E7161F8C8400C6A7BA /* ROMAppDelegate.m in Sources */,
+				8F8721F0161F8C8400C6A7BA /* ROMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F8721DF161F8C8300C6A7BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F8721E0161F8C8300C6A7BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F8721F1161F8C8400C6A7BA /* ROMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F8721F2161F8C8400C6A7BA /* en */,
+			);
+			name = ROMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F8721F4161F8C8400C6A7BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F8721F5161F8C8400C6A7BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F8721F7161F8C8400C6A7BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Autosize/Autosize-Prefix.pch";
+				INFOPLIST_FILE = "Autosize/Autosize-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F8721F8161F8C8400C6A7BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Autosize/Autosize-Prefix.pch";
+				INFOPLIST_FILE = "Autosize/Autosize-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F8721CC161F8C8300C6A7BA /* Build configuration list for PBXProject "Autosize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8721F4161F8C8400C6A7BA /* Debug */,
+				8F8721F5161F8C8400C6A7BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8721F6161F8C8400C6A7BA /* Build configuration list for PBXNativeTarget "Autosize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8721F7161F8C8400C6A7BA /* Debug */,
+				8F8721F8161F8C8400C6A7BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F8721C9161F8C8300C6A7BA /* Project object */;
+}
