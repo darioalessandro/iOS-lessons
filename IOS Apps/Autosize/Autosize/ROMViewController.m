@@ -31,5 +31,12 @@
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
+- (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)
+interfaceOrientation duration:(NSTimeInterval)duration {
+    if (UIInterfaceOrientationIsPortrait(interfaceOrientation)) { _buttonUL.frame = CGRectMake(20, 20, 125, 125); _buttonUR.frame = CGRectMake(175, 20, 125, 125); _buttonL.frame = CGRectMake(20, 168, 125, 125); _buttonR.frame = CGRectMake(175, 168, 125, 125); _buttonLL.frame = CGRectMake(20, 315, 125, 125); _buttonLR.frame = CGRectMake(175, 315, 125, 125);
+    } else {
+        _buttonUL.frame = CGRectMake(20, 20, 125, 125);
+        _buttonUR.frame = CGRectMake(20, 155, 125, 125); _buttonL.frame = CGRectMake(177, 20, 125, 125); _buttonR.frame = CGRectMake(177, 155, 125, 125); _buttonLL.frame = CGRectMake(328, 20, 125, 125); _buttonLR.frame = CGRectMake(328, 155, 125, 125);
+    } }
 
 @end
