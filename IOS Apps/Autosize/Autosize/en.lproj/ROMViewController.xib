@@ -225,59 +225,59 @@
 			<array class="NSMutableArray" key="connectionRecords">
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">buttonUL</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="487668186"/>
+					</object>
+					<int key="connectionID">86</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">buttonUR</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="102747388"/>
+					</object>
+					<int key="connectionID">87</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">buttonL</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="61430496"/>
+					</object>
+					<int key="connectionID">88</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">buttonR</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="16445844"/>
+					</object>
+					<int key="connectionID">89</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">buttonLL</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="736077437"/>
+					</object>
+					<int key="connectionID">90</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">buttonLR</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="553335643"/>
+					</object>
+					<int key="connectionID">91</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">view</string>
 						<reference key="source" ref="372490531"/>
 						<reference key="destination" ref="774585933"/>
 					</object>
-					<int key="connectionID">7</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">ULButton</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="487668186"/>
-					</object>
-					<int key="connectionID">80</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">URButton</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="102747388"/>
-					</object>
-					<int key="connectionID">81</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">LButton</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="61430496"/>
-					</object>
-					<int key="connectionID">82</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">RButton</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="16445844"/>
-					</object>
-					<int key="connectionID">83</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">LLButton</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="736077437"/>
-					</object>
-					<int key="connectionID">84</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">LRButton</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="553335643"/>
-					</object>
-					<int key="connectionID">85</int>
+					<int key="connectionID">92</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -939,7 +939,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">85</int>
+			<int key="maxID">92</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -955,12 +955,6 @@
 					<string key="className">ROMViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="LButton">UIButton</string>
-						<string key="LLButton">UIButton</string>
-						<string key="LRButton">UIButton</string>
-						<string key="RButton">UIButton</string>
-						<string key="ULButton">UIButton</string>
-						<string key="URButton">UIButton</string>
 						<string key="buttonL">UIButton</string>
 						<string key="buttonLL">UIButton</string>
 						<string key="buttonLR">UIButton</string>
@@ -969,30 +963,6 @@
 						<string key="buttonUR">UIButton</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="LButton">
-							<string key="name">LButton</string>
-							<string key="candidateClassName">UIButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="LLButton">
-							<string key="name">LLButton</string>
-							<string key="candidateClassName">UIButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="LRButton">
-							<string key="name">LRButton</string>
-							<string key="candidateClassName">UIButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="RButton">
-							<string key="name">RButton</string>
-							<string key="candidateClassName">UIButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="ULButton">
-							<string key="name">ULButton</string>
-							<string key="candidateClassName">UIButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="URButton">
-							<string key="name">URButton</string>
-							<string key="candidateClassName">UIButton</string>
-						</object>
 						<object class="IBToOneOutletInfo" key="buttonL">
 							<string key="name">buttonL</string>
 							<string key="candidateClassName">UIButton</string>
