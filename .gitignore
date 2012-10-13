@@ -1,2 +1,8 @@
 
 *.xcuserstate
+
+IOS Apps/View  Switcher/.DS_Store
+
+*.xcscheme
+
+IOS Apps/View  Switcher/View  Switcher.xcodeproj/xcuserdata/darioalessandro.xcuserdatad/xcschemes/xcschememanagement.plist
