@@ -1,13 +1,13 @@
 //
 //  BIDYellowViewController.h
-//  View  Switcher
+//  View Switcher
 //
-//  Created by 23 * Romanovski * 23 on 10/10/12.
+//  Created by 23 * Romanovski * 23 on 12/10/12.
 //  Copyright (c) 2012 com.Apress. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface BIDYellowViewController : UIView
+@interface BIDYellowViewController : UIViewController
 
 @end

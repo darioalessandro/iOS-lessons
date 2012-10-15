@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'View  Switcher' target in the 'View  Switcher' project
+// Prefix header for all source files of the 'View Switcher' target in the 'View Switcher' project
 //
 
 #import <Availability.h>
