@@ -26,6 +26,7 @@
 		8F30D45F162DFCAE00FBCFF0 /* BIDDependentComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F30D45D162DFCAE00FBCFF0 /* BIDDependentComponentPickerViewController.xib */; };
 		8F30D463162DFCCE00FBCFF0 /* BIDCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F30D461162DFCCE00FBCFF0 /* BIDCustomPickerViewController.m */; };
 		8F30D464162DFCCE00FBCFF0 /* BIDCustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F30D462162DFCCE00FBCFF0 /* BIDCustomPickerViewController.xib */; };
+		8FB340AF162E1420003BF6B1 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB340AE162E1420003BF6B1 /* TabBarController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		8F30D460162DFCCE00FBCFF0 /* BIDCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCustomPickerViewController.h; sourceTree = "<group>"; };
 		8F30D461162DFCCE00FBCFF0 /* BIDCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCustomPickerViewController.m; sourceTree = "<group>"; };
 		8F30D462162DFCCE00FBCFF0 /* BIDCustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDCustomPickerViewController.xib; sourceTree = "<group>"; };
+		8FB340AE162E1420003BF6B1 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				8F30D460162DFCCE00FBCFF0 /* BIDCustomPickerViewController.h */,
 				8F30D461162DFCCE00FBCFF0 /* BIDCustomPickerViewController.m */,
 				8F30D462162DFCCE00FBCFF0 /* BIDCustomPickerViewController.xib */,
+				8FB340AE162E1420003BF6B1 /* TabBarController.xib */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				8F30D45A162DFC9000FBCFF0 /* BIDDoubleComponentPickerViewController.xib in Resources */,
 				8F30D45F162DFCAE00FBCFF0 /* BIDDependentComponentPickerViewController.xib in Resources */,
 				8F30D464162DFCCE00FBCFF0 /* BIDCustomPickerViewController.xib in Resources */,
+				8FB340AF162E1420003BF6B1 /* TabBarController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
