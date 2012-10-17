@@ -10,4 +10,11 @@
 
 @interface BIDSingleComponentPickerViewController : UIViewController
 
+
+
+<UIPickerViewDelegate, UIPickerViewDataSource>
+@property (strong, nonatomic) IBOutlet UIPickerView *singlePicker; @property (strong, nonatomic) NSArray *pickerData;
+- (IBAction)buttonPressed;
+
+
 @end
