@@ -14,6 +14,8 @@
 
 @implementation BIDDependentComponentPickerViewController
 
+
+
 @synthesize picker; @synthesize stateZips; @synthesize states; @synthesize zips;
 - (IBAction) buttonPressed {
     NSInteger stateRow = [picker selectedRowInComponent:kStateComponent]; NSInteger zipRow = [picker selectedRowInComponent:kZipComponent];
@@ -42,19 +44,25 @@
     
     NSBundle *bundle = [NSBundle mainBundle];
     NSURL *plistURL = [bundle URLForResource:@"statedictionary"
-                               withExtension:@"plist"]; NSDictionary *dictionary = [NSDictionary
-                                                                                    dictionaryWithContentsOfURL:plistURL];
+                               withExtension:@"plist"];
+    
+    
+    
+    
+    
+    NSDictionary *dictionary = [NSDictionary dictionaryWithContentsOfURL:plistURL];
     self.stateZips = dictionary;
     NSArray *components = [self.stateZips allKeys];
     NSArray *sorted = [components sortedArrayUsingSelector:
-                       @selector(compare:)]; self.states = sorted;
+                      
+    @selector(compare:)]; self.states = sorted;
     NSString *selectedState = [self.states objectAtIndex:0]; NSArray *array = [stateZips objectForKey:selectedState]; self.zips = array;
-    // Do any additional setup after loading the view from its nib.
+
 }
 
 - (void)viewDidUnload {
     [super viewDidUnload];
-    // Release any retained subviews of the main view. // e.g. self.myOutlet = nil;
+   
     self.picker = nil;
     self.stateZips = nil;
     self.states = nil;
@@ -87,5 +95,10 @@
     NSString *selectedState = [self.states objectAtIndex:row]; NSArray *array = [stateZips objectForKey:selectedState]; self.zips = array;
     [picker selectRow:0 inComponent:kZipComponent animated:YES]; [picker reloadComponent:kZipComponent];
 } }
+- (CGFloat)pickerView:(UIPickerView *)pickerView widthForComponent:(NSInteger)component {
+    if (component == kZipComponent)
+        return 90;
+    return 200;
+}
 
 @end

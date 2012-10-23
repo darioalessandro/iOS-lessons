@@ -140,9 +140,9 @@
 						<string key="label">buttonPressed</string>
 						<reference key="source" ref="63182573"/>
 						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">3</int>
+						<int key="IBEventType">7</int>
 					</object>
-					<int key="connectionID">19</int>
+					<int key="connectionID">21</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
@@ -360,7 +360,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">20</int>
+			<int key="maxID">21</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">

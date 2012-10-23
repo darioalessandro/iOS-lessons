@@ -31,6 +31,16 @@
 		8F9708B9163057E900D08498 /* icon_calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9708B5163057E900D08498 /* icon_calendar.png */; };
 		8F9708BA163057E900D08498 /* icon_pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9708B6163057E900D08498 /* icon_pencil.png */; };
 		8F9708BB163057E900D08498 /* icon_sad_face.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9708B7163057E900D08498 /* icon_sad_face.png */; };
+		8FAC78AE1631C89D0034651A /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FAC78AD1631C89D0034651A /* statedictionary.plist */; };
+		8FAC78C71635C8D60034651A /* pig.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FAC78C11635C8D50034651A /* pig.png */; };
+		8FAC78C81635C8D60034651A /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FAC78C21635C8D50034651A /* star.png */; };
+		8FAC78C91635C8D60034651A /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FAC78C31635C8D50034651A /* home.png */; };
+		8FAC78CA1635C8D60034651A /* pacman.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FAC78C41635C8D50034651A /* pacman.png */; };
+		8FAC78CB1635C8D60034651A /* brush.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FAC78C51635C8D50034651A /* brush.png */; };
+		8FAC78CC1635C8D60034651A /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FAC78C61635C8D60034651A /* bell.png */; };
+		8FAC78D016362A720034651A /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8FAC78CE16362A710034651A /* win.wav */; };
+		8FAC78D216362C880034651A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAC78D116362C880034651A /* AudioToolbox.framework */; };
+		8FAC78D416362D3F0034651A /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8FAC78D316362D3F0034651A /* crunch.wav */; };
 		8FB340AF162E1420003BF6B1 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB340AE162E1420003BF6B1 /* TabBarController.xib */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +78,16 @@
 		8F9708B5163057E900D08498 /* icon_calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_calendar.png; sourceTree = "<group>"; };
 		8F9708B6163057E900D08498 /* icon_pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pencil.png; sourceTree = "<group>"; };
 		8F9708B7163057E900D08498 /* icon_sad_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_sad_face.png; sourceTree = "<group>"; };
+		8FAC78AD1631C89D0034651A /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		8FAC78C11635C8D50034651A /* pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig.png; sourceTree = "<group>"; };
+		8FAC78C21635C8D50034651A /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		8FAC78C31635C8D50034651A /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		8FAC78C41635C8D50034651A /* pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacman.png; sourceTree = "<group>"; };
+		8FAC78C51635C8D50034651A /* brush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brush.png; sourceTree = "<group>"; };
+		8FAC78C61635C8D60034651A /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bell.png; sourceTree = "<group>"; };
+		8FAC78CE16362A710034651A /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		8FAC78D116362C880034651A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8FAC78D316362D3F0034651A /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = crunch.wav; path = ../../../../../Desktop/crunch.wav; sourceTree = "<group>"; };
 		8FB340AE162E1420003BF6B1 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FAC78D216362C880034651A /* AudioToolbox.framework in Frameworks */,
 				8F30D42B162CAC6B00FBCFF0 /* UIKit.framework in Frameworks */,
 				8F30D42D162CAC6B00FBCFF0 /* Foundation.framework in Frameworks */,
 				8F30D42F162CAC6B00FBCFF0 /* CoreGraphics.framework in Frameworks */,
@@ -88,6 +109,7 @@
 		8F30D41B162CAC6B00FBCFF0 = {
 			isa = PBXGroup;
 			children = (
+				8FAC78D116362C880034651A /* AudioToolbox.framework */,
 				8F30D430162CAC6B00FBCFF0 /* Pickers */,
 				8F30D429162CAC6B00FBCFF0 /* Frameworks */,
 				8F30D427162CAC6B00FBCFF0 /* Products */,
@@ -115,10 +137,18 @@
 		8F30D430162CAC6B00FBCFF0 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				8FAC78D316362D3F0034651A /* crunch.wav */,
+				8FAC78CE16362A710034651A /* win.wav */,
 				8F9708B4163057E900D08498 /* people_family.png */,
 				8F9708B5163057E900D08498 /* icon_calendar.png */,
 				8F9708B6163057E900D08498 /* icon_pencil.png */,
 				8F9708B7163057E900D08498 /* icon_sad_face.png */,
+				8FAC78C11635C8D50034651A /* pig.png */,
+				8FAC78C21635C8D50034651A /* star.png */,
+				8FAC78C31635C8D50034651A /* home.png */,
+				8FAC78C41635C8D50034651A /* pacman.png */,
+				8FAC78C51635C8D50034651A /* brush.png */,
+				8FAC78C61635C8D60034651A /* bell.png */,
 				8F9708B21630579500D08498 /* icon_smile_face.png */,
 				8F30D439162CAC6B00FBCFF0 /* BIDAppDelegate.h */,
 				8F30D43A162CAC6B00FBCFF0 /* BIDAppDelegate.m */,
@@ -139,6 +169,7 @@
 				8F30D461162DFCCE00FBCFF0 /* BIDCustomPickerViewController.m */,
 				8F30D462162DFCCE00FBCFF0 /* BIDCustomPickerViewController.xib */,
 				8FB340AE162E1420003BF6B1 /* TabBarController.xib */,
+				8FAC78AD1631C89D0034651A /* statedictionary.plist */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -224,6 +255,15 @@
 				8F9708B9163057E900D08498 /* icon_calendar.png in Resources */,
 				8F9708BA163057E900D08498 /* icon_pencil.png in Resources */,
 				8F9708BB163057E900D08498 /* icon_sad_face.png in Resources */,
+				8FAC78AE1631C89D0034651A /* statedictionary.plist in Resources */,
+				8FAC78C71635C8D60034651A /* pig.png in Resources */,
+				8FAC78C81635C8D60034651A /* star.png in Resources */,
+				8FAC78C91635C8D60034651A /* home.png in Resources */,
+				8FAC78CA1635C8D60034651A /* pacman.png in Resources */,
+				8FAC78CB1635C8D60034651A /* brush.png in Resources */,
+				8FAC78CC1635C8D60034651A /* bell.png in Resources */,
+				8FAC78D016362A720034651A /* win.wav in Resources */,
+				8FAC78D416362D3F0034651A /* crunch.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
